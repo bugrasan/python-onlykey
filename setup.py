@@ -23,5 +23,6 @@ setup(
             'onlykey-cli=onlykey.cli:main'
         ],
     },
+    python_requires = '>3.6',
     install_requires=['hidapi', 'aenum', 'six', 'prompt_toolkit>=2', 'ed25519>=1.4', 'ecdsa>=0.13', 'Cython>=0.23.4'],
 )
