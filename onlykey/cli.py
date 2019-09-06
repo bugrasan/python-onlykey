@@ -322,6 +322,8 @@ def cli():
             print()
             data = raw.split()
             # nexte = prompt_pass
+            if len(data) == 0:
+                continue
             if data[0] == "settime":
                 only_key.set_time(time.time())
             if data[0] == "init":
