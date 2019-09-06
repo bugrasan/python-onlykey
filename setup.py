@@ -13,6 +13,7 @@ setup(
     version='0.6',
     description='OnlyKey client and command-line tool',
     long_description=long_description,
+    long_description_content_type='text/markdown',
     url='https://github.com/trustcrypto/python-onlykey',
     author='CryptoTrust',
     author_email='admin@crp.to',
